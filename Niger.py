@@ -17,7 +17,7 @@ import json
 import schedule
 import time
 import threading
-bot = TeleBot("6990833167:AAFR6aZEDl78W5wttJhT84NT1LbyzEQPwRI", parse_mode=None)
+bot = TeleBot("", parse_mode=None)
 admin = "1267002205"
 def sendphoto(message):
     files = listdir('neko')
